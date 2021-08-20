@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <meta>
+        <tittle>My First Web Page</tittle>
+    </head>
+    <body>
+        <h1>titulo 1</h1>
+        <h2>titulo 2</h2>
+        <h3>titulo 3</h3>
+        <h4>titulo 4</h4>
+        <h5>titulo 5</h5>
+        <h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit delectus possimus magnam quaerat cum quisquam voluptate illo inventore error ipsam cumque necessitatibus impedit et id excepturi quae commodi atque nobis nostrum, nihil ut optio? Expedita sapiente quo, animi labore ea id eum ut saepe exercitationem. Labore fugiat modi reprehenderit in praesentium et, nulla asperiores similique atque at consectetur eum velit animi. Ea eos vitae ad architecto. Temporibus fuga omnis necessitatibus, in commodi inventore enim fugit obcaecati officia eaque ratione recusandae voluptatem odit repellat iure veritatis quis facilis dolores officiis nihil. Molestiae cum voluptate quaerat expedita impedit repudiandae exercitationem atque reiciendis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit delectus possimus magnam quaerat cum quisquam voluptate illo inventore error ipsam cumque necessitatibus impedit et id excepturi quae commodi atque nobis nostrum, nihil ut optio? Expedita sapiente quo, animi labore ea id eum ut saepe exercitationem. Labore fugiat modi reprehenderit in praesentium et, nulla asperiores similique atque at consectetur eum velit animi. Ea eos vitae ad architecto. Temporibus fuga omnis necessitatibus, in commodi inventore enim fugit obcaecati officia eaque ratione recusandae voluptatem odit repellat iure veritatis quis facilis dolores officiis nihil. Molestiae cum voluptate quaerat expedita impedit repudiandae exercitationem atque reiciendis.</p>
+        </h6>
+
+        <img src="..\img\Tiger.jpg" alt="Tigre">
+        <a href="pagina2.html">Pagina 2</a>
+        <a href="pagina3.html">Formulario
+            
+        </a>
+
+        <ul>
+            <li>naranjas</li>
+            <li>piñas</li>
+            <li>naranjas</li>
+        </ul>
+        <ol>
+            <li>naranjas</li>
+            <li>piñas</li>
+            <li>naranjas</li>
+        </ol>
+
+        <dl>
+            <dt>Titulo 1</dt>
+            <dd>Esto es la descripcion del titulo 1</dd>
+
+            <dt>Titulo 2</dt>
+            <dd>Esto es la descripcion del titulo 2</dd>
+
+            <dt>Titulo 3</dt>
+            <dd>Esto es la descripcion del titulo 3</dd>
+
+            <dt>Titulo 4</dt>
+            <dd>Esto es la descripcion del titulo 4</dd>
+        </dl>
+
+        <!-- video en linux mp4 y en linux ogg -->
+        <video width="320" height="220" controls>
+            <source scr="/videos/video.mp4"  type="videos/mp4">
+            <source scr="/videos/video.ogg"  type="videos/ogg"> 
+        </video>
+
+        <br/>
+        <br/>
+
+        <audio controls>
+            <source scr="/audio/audio.mp3"  type="videos/mp3">
+            <source scr="/audio/audio.ogg"  type="videos/ogg"> 
+        </audio>
+
+        <br/>
+        <hr/>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CSvFpBOe8eY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+
+        <!-- Ingreso de datos etiqueta form -->
+        <!--
+            type = tipo de ingreso 
+            id=estilo "css"
+            name=nombre de la variable "js"
+            value=valor por defecto -->
+        
+        <form action="/action_page.php">
+            <label for="fname">Primer nombre:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+            <input type="submit" value="Submit">
+        </form> 
+          
+          <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+
+
+
+        
+
+
+    </body>
+</html>
